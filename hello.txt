@@ -1,0 +1,52 @@
+?plugins=forms,typography,aspect-ratio:68 cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation
+(anonymous) @ ?plugins=forms,typography,aspect-ratio:68
+(anonymous) @ ?plugins=forms,typography,aspect-ratio:68
+manage/:2217 🚀 Server Management System loaded successfully!
+manage/:705 Angewandte Cookie-Einstellungen: {essential: true, analytics: true, marketing: true, external: true}
+manage/:726 Analytics-Skripte geladen
+manage/:731 Marketing-Skripte geladen
+manage/:736 Externe Medien geladen
+A bad HTTP response code (404) was received when fetching the script.
+manage/:2187 SW registration failed
+manage/:2192 Unhandled error: ReferenceError: ServerUtils is not defined
+    at ServerActionManager.updateServerStatus (manage/:1359:65)
+    at ServerActionManager.executePowerAction (manage/:1273:22)
+    at ServerActionManager.sendPowerAction (manage/:1265:26)
+    at window.sendPowerAction (manage/:2123:27)
+    at HTMLButtonElement.onclick (manage/:1074:178)
+(anonymous) @ manage/:2192
+manage/:1359 Uncaught ReferenceError: ServerUtils is not defined
+    at ServerActionManager.updateServerStatus (manage/:1359:65)
+    at ServerActionManager.executePowerAction (manage/:1273:22)
+    at ServerActionManager.sendPowerAction (manage/:1265:26)
+    at window.sendPowerAction (manage/:2123:27)
+    at HTMLButtonElement.onclick (manage/:1074:178)
+updateServerStatus @ manage/:1359
+executePowerAction @ manage/:1273
+sendPowerAction @ manage/:1265
+window.sendPowerAction @ manage/:2123
+onclick @ manage/:1074
+manage/:2192 Unhandled error: SyntaxError: Unexpected end of input (at manage/:1:54)
+(anonymous) @ manage/:2192
+manage/:1 Uncaught SyntaxError: Unexpected end of input (at manage/:1:54)
+manage/:2192 Unhandled error: SyntaxError: Unexpected end of input (at manage/:1:14)
+(anonymous) @ manage/:2192
+manage/:1 Uncaught SyntaxError: Unexpected end of input (at manage/:1:14)
+manage/:1694  GET https://blinky.hostingmitherz.de/manage/api/refresh_status.php 404 (Not Found)
+refreshServerData @ manage/:1694
+(anonymous) @ manage/:1656
+setInterval
+start @ manage/:1655
+init @ manage/:1645
+AutoRefreshManager @ manage/:1640
+(anonymous) @ manage/:2116
+manage/:1702 Auto-refresh error: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+(anonymous) @ manage/:1702
+Promise.catch
+refreshServerData @ manage/:1701
+(anonymous) @ manage/:1656
+setInterval
+start @ manage/:1655
+init @ manage/:1645
+AutoRefreshManager @ manage/:1640
+(anonymous) @ manage/:2116
